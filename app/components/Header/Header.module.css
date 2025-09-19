@@ -1,9 +1,28 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    border-bottom: 1px solid #a1a6b4;
-    background: white;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #a1a6b4;
+  background: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1140px;
+  margin: 24px 0 24px;
+  padding: 0 16px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+}
+
+.logo-link {
+  max-width: 215px;
+}
